@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Result({total = 10, score = 5}) {
+function Result({total, score}) {
     function goToHome(){
         // function which will take to the home page to reastart the test
     }
