@@ -1,6 +1,4 @@
-const mcqQuestion = {
-    "quiz": {
-      "title": "General Knowledge Quiz",
+export const mcqQuestion = {
       "questions": [
         {
           "id": 1,
@@ -223,6 +221,5 @@ const mcqQuestion = {
           "answer": "Mercury"
         }
       ]
-    }
   }
   
