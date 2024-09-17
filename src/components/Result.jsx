@@ -1,6 +1,6 @@
   import App from '../App'
 
-  const Result = ({score, setScore, questionIndex, setQuestionIndex}) => {
+  const Result = ({ score, setScore, questionIndex, setQuestionIndex }) => {
     return (
       <div className='h-screen w-full flex-col justify-center items-center gap-5'>
           <h1 className='text-xl text-white font-semibold'>Your Have Scored {score}</h1>
