@@ -17,13 +17,16 @@ const App = () => {
         <div className="flex justify-center">
           {/* Render Result component when the quiz is finished */}
           {isQuizFinished ? (
-            <Result
+            <div className="h-screen flex justify-center items-center">
+              <Result
               score={score}
               setScore={setScore}
               setQuestionIndex={setQuestionIndex}
-            />
+              />
+            </div>
+            
           ) : (
-            <div className='flex-col jus'>
+            <div className='flex-col justify-center'>
               <Header />
               <Question
                 data={mcqQuestion.questions[questionIndex]}

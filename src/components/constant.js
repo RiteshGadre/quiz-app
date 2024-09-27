@@ -9,7 +9,7 @@
           "Berlin",
           "Madrid",
           "Paris",
-          "Rome"
+          "Rome"  
         ],
         "answer": "Paris"
       },
