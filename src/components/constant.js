@@ -1,5 +1,4 @@
 
-
   export const mcqQuestion = {
     "questions": [
       {

@@ -83,13 +83,13 @@ const Question = ({
             </button>
             <button
               className="px-3 py-2 bg-[#1E2A5E] rounded-lg font-semibold"
-              onClick={handleSubmit}
+              onClick={handleNext}
             >
               Next
             </button>
             <button
               className="px-3 py-2 bg-[#1E2A5E] rounded-lg font-semibold"
-              onClick={handleNext}
+              onClick={handleSubmit}
             >
               Submit
             </button>
